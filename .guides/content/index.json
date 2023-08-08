@@ -1,0 +1,23 @@
+{
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideBackToDashboard": false,
+	"hideMenu": false,
+	"hideSectionsToggle": false,
+	"lexikonTopic": "",
+	"order": [
+		"Learning-Objectives-ea75",
+		"Endpoints-6b8a",
+		"Models-55f2",
+		"Embeddings-fc32",
+		"Edits-0233",
+		"Coding-Exercise-9f1c"
+	],
+	"protectLayout": false,
+	"scripts": [],
+	"suppressPageNumbering": true,
+	"theme": "light",
+	"title": "Fine-Tuning",
+	"useMarkAsComplete": true,
+	"useSubmitButtons": true
+}

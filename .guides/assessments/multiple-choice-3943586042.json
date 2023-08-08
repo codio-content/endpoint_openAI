@@ -1,0 +1,62 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3943586042",
+	"source": {
+		"name": "Embeddings ",
+		"showName": false,
+		"instructions": "**Which of the following is true about embeddings?**",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "39530380-76d2-8841-c198-390e48bad37a",
+				"correct": false,
+				"answer": "They are a type of machine learning model."
+			},
+			{
+				"_id": "411eec27-7e3b-ff1e-ad01-7ee1596f8265",
+				"correct": false,
+				"answer": "They are a way to represent text as a sequence of integers."
+			},
+			{
+				"_id": "004b82cc-d234-c892-f76e-90f1a413a216",
+				"correct": true,
+				"answer": "They are a type of vector representation of input data."
+			},
+			{
+				"_id": "222933ae-d86d-7c04-9f56-92851c894d78",
+				"correct": false,
+				"answer": "They are only used for text search and text similarity.\n\n"
+			}
+		],
+		"guidance": "They are a type of vector representation of input data. They are often used in machine learning and natural language processing to convert categorical variables to continuous vectors. Embeddings essentially provide a way of reducing dimensionality and dealing with sparse data.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [
+				"embedding.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "embedding.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

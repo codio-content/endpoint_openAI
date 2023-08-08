@@ -1,0 +1,4 @@
+Paraphrase the following:
+"Each embedding is a vector of floating point numbers, such that the distance between two embeddings in the vector space is correlated with semantic similarity between two inputs in the original format." 
+
+The distance between two embeddings in the vector space corresponds with the semantic similarity between two inputs in the original format.

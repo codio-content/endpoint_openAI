@@ -1,0 +1,67 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1672587686",
+	"source": {
+		"name": "endpoints",
+		"showName": false,
+		"instructions": "**Which API endpoints would you use if you want to store a document on OpenAI and then ask a question about that document? Select all that apply.**",
+		"multipleResponse": true,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "5c7dba65-946f-57fe-2536-0ee997e85290",
+				"correct": true,
+				"answer": "Files endpoint"
+			},
+			{
+				"_id": "68d3b413-c9de-e3ef-8f91-526b84d3c8b8",
+				"correct": true,
+				"answer": "Answers endpoint"
+			},
+			{
+				"_id": "f65efb2b-ceb1-d334-691c-1efb6fa90eb4",
+				"correct": false,
+				"answer": "Completions endpoint"
+			},
+			{
+				"_id": "ed40ba3a-9d93-1c73-6ce8-ac7eeef98f50",
+				"correct": false,
+				"answer": "Semantic Search endpoint"
+			}
+		],
+		"guidance": "The correct answers are:\n\n* Files endpoint\n* Answers endpoint\n\nTo ask a question about a file, that file needs to be in OpenAI. This is done with the Files endpoint. Then we can use the Answers endpoint to ask a question about the file.\n\nWe are not using a prompt to generate a response, so we do not need the Completions endpoint. Nor are we looking for a semantic score, so we do not need the Semantic Search endpoint.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				},
+				{
+					"name": "Content",
+					"value": "Endpoints"
+				},
+				{
+					"name": "Programming Language",
+					"value": "OpenAI"
+				},
+				{
+					"name": "Category",
+					"value": "Endpoints"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "3",
+		"learningObjectives": "SWBAT identify which endpoints are needed to query a document"
+	}
+}

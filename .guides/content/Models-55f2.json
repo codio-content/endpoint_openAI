@@ -1,0 +1,18 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "markdown",
+	"files": [
+		{
+			"path": "temp.py",
+			"action": "open"
+		}
+	],
+	"id": "55f20046-84be-f360-4236-f1a3216a3991",
+	"layout": "2-panels",
+	"learningObjectives": "",
+	"path": [],
+	"teacherOnly": false,
+	"title": "Models",
+	"type": "page"
+}

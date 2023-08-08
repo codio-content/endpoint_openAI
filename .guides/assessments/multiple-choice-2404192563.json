@@ -1,0 +1,62 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2404192563",
+	"source": {
+		"name": "`Edit` API call",
+		"showName": false,
+		"instructions": "**What is the purpose of the `instruction` argument in the`Edit` API call?**",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "121d650a-3654-b56e-82ec-48362b5b1a14",
+				"correct": false,
+				"answer": "It specifies the input text to be edited."
+			},
+			{
+				"_id": "1ea14e5d-665d-81d0-45b0-25a4fee97e7f",
+				"correct": false,
+				"answer": "It specifies the name of the model to use for editing."
+			},
+			{
+				"_id": "88dee5ba-f004-e249-e631-9b5b668762d0",
+				"correct": false,
+				"answer": " It provides additional options for controlling the editing process"
+			},
+			{
+				"_id": "c83719fa-3aa8-6c6e-1335-36a2ddcce3ea",
+				"correct": true,
+				"answer": "It tells the AI how to edit the prompt."
+			}
+		],
+		"guidance": "The `Edit` API call would take the instruction argument to serve a similar purpose: providing guidance to the model about what kind of response is expected. In other words, it tells the AI how to edit the prompt.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [
+				"edits.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "edits.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

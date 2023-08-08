@@ -1,0 +1,60 @@
+{
+	"type": "code-output-compare",
+	"taskId": "code-output-compare-907671071",
+	"source": {
+		"name": "EDIT ENDPOINT",
+		"showName": false,
+		"instructions": "When done with your code, please click the button below to submit.",
+		"command": "python exerciseTest.py",
+		"preExecuteCommand": "",
+		"options": {
+			"timeout": 30,
+			"ignoreCase": true,
+			"ignoreWhitespaces": true,
+			"ignoreNewline": true,
+			"matchSubstring": false
+		},
+		"guidance": "```python\ndef fix_spelling(text: str) -> str:\n    edi = openai.Edit.create(\n        model=\"text-davinci-edit-001\",\n        input=text,\n        instruction=\"Fix the spelling mistakes\"\n    )\n    return edi['choices'][0]['text'].strip()\n```\n\nThis code defines a list of input strings called `input_texts` and loops over each string. For each input string, the `fix_spelling` function is called with the string as input, and the resulting corrected output is printed to the console. \n\n`openai.Edit.create(...)`: This line sends a request to OpenAI's API. It uses the Edit.create method to create a new Edit object, which involves a text editing operation.\n\n`model=\"text-davinci-edit-001\"`: This specifies the model to use. \n\n`input=text`: This sets the input text to the input of the function, which is the text with spelling mistakes.\n\n`instruction=\"Fix the spelling mistakes\"`: This provides instructions to the model. In this case, it's to fix the spelling mistakes in the input text.\n\n`top_p=0.1`: This is a parameter for the nucleus sampling method, which controls the randomness of the model's outputs. A smaller value makes the output more deterministic and focused on the most probable predictions.\n\n",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"points": 20,
+		"showExpectedAnswer": true,
+		"arePartialPointsAllowed": false,
+		"sequence": [
+			{
+				"arguments": "",
+				"input": "",
+				"output": "The file runs without errors.\nInput: I hve a bananna for brekfast.\nOutput: I have a banana for breakfast.\n\nInput: The colur of the sky is rde.\nOutput: The colour of the sky is red.\n\nInput: The grass is greneer on the other side.\nOutput: The grass is greener on the other side.\n\nTest for input 'I hve a bananna for brekfast.' passed!\nTest for input 'The colur of the sky is rde.' passed!\nTest for input 'The grass is greneer on the other side.' passed!\n",
+				"showFeedback": false,
+				"feedback": ""
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Standard Code Test"
+				}
+			],
+			"files": [
+				"edits.py",
+				"exercise.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "edits.py"
+				},
+				{
+					"type": "file",
+					"content": "exercise.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

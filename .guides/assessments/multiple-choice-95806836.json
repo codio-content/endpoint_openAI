@@ -1,0 +1,69 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-95806836",
+	"source": {
+		"name": "models",
+		"showName": false,
+		"instructions": "**Select the code snippet that prints the total number of models.**",
+		"multipleResponse": false,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "b23c9e4e-9443-5048-ccdb-336e8250f0c2",
+				"correct": true,
+				"answer": "<pre><code>models = openai.Model.list()\nprint(len(models[\"data\"])</code></pre>"
+			},
+			{
+				"_id": "ec2d441d-cb4a-99e3-3d05-05175fa0a892",
+				"correct": false,
+				"answer": "<pre><code>models = openai.Model.list()\nprint(len(models)</code></pre>"
+			},
+			{
+				"_id": "f3ab6d7f-1041-b707-db10-931280284c9e",
+				"correct": false,
+				"answer": "<pre><code>models = openai.Model.retrieve(\"text-davinci-002\")\nprint(len(models[\"data\"])</code></pre>"
+			}
+		],
+		"guidance": "The correct answer is:\n\n<pre><code>models = openai.Model.list()\nprint(len(models[\"data\"])</code></pre>\n\nSince we want to count all of the models, we need to use `openai.Model.list()`. Using the retrieve method will only return a single model. In addition, all of the model metadata is stored in a list associated with the `\"data\"` key. We should calculate the length of `models[\"data\"]`.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				},
+				{
+					"name": "Content",
+					"value": "Models"
+				},
+				{
+					"name": "Programming Language",
+					"value": "Python"
+				},
+				{
+					"name": "Category",
+					"value": "Endpoints"
+				}
+			],
+			"files": [
+				"temp.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "temp.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "4",
+		"learningObjectives": "SWBAT select the code sample that counts the total number of models"
+	}
+}
